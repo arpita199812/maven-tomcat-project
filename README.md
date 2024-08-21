@@ -130,6 +130,8 @@ This guide provides step-by-step instructions for installing Apache Tomcat 9.0.6
    ```xml
    <user username="admin" password="admin1234" roles="admin-gui,manager-gui,manager-script"/>
    ```
+   ![Screenshot 2024-08-14 112119](https://github.com/user-attachments/assets/d19a1c8a-85d6-414e-8496-1376f74f5e9b)
+
 
    This creates an admin user with the username `admin` and the password `admin1234`. The user is assigned roles that allow access to the administrative and management interfaces.
 
@@ -180,6 +182,7 @@ This guide provides step-by-step instructions for installing Apache Tomcat 9.0.6
 
    This change removes the restriction that only allows access to the Host Manager application from localhost.
 
+
 ## Starting and Stopping Tomcat
 
 - **To stop Tomcat:**
@@ -193,6 +196,9 @@ This guide provides step-by-step instructions for installing Apache Tomcat 9.0.6
   ```bash
   sudo startTomcat
   ```
+![Screenshot 2024-08-14 112933](https://github.com/user-attachments/assets/b139d8e4-5bfc-4caa-adb5-9385447fbb0f)
+
+![Screenshot 2024-08-14 112946](https://github.com/user-attachments/assets/fa0259b7-606a-4f59-b36c-a26e6861585c)
 
 These commands will control the Tomcat server's operation.
 
